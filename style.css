@@ -3,13 +3,12 @@
 }
 
 main {
-    magin: 0;
+    margin: 20px;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    margin: 0 auto;
 }
 
 .container {
@@ -41,11 +40,12 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 10px;
+    margin: 20px;
     width: 30vw;
     height: 30vw;
 }
 
-.center__mid-top {
+.center__mid-top:hover {
     background-color: blueviolet;
+    transition: 250ms ease-in-out;
 }
